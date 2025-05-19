@@ -1,0 +1,35 @@
+baseURL = '/'
+languageCode = 'fa-ir'
+title = 'وب‌سایت من'
+theme = 'hugo-seven'
+
+# تنظیمات تم Hugo Seven
+[params]
+  # اطلاعات سایت
+  description = "توضیحات وب‌سایت من"
+  author = "نام شما"
+  copyright = "© 2024 تمامی حقوق محفوظ است"
+  
+  # تنظیمات لوگو
+  logo = "images/logo.png"
+  
+  # تنظیمات منو
+  [[params.menu]]
+    name = "خانه"
+    url = "/"
+    weight = 1
+  [[params.menu]]
+    name = "درباره ما"
+    url = "/about/"
+    weight = 2
+  [[params.menu]]
+    name = "تماس"
+    url = "/contact/"
+    weight = 3
+
+# تنظیمات زبان
+[languages]
+  [languages.fa]
+    languageName = "فارسی"
+    weight = 1
+    contentDir = "content/fa"
