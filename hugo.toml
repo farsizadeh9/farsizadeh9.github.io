@@ -1,13 +1,13 @@
 baseURL = '/'
 languageCode = 'fa-ir'
-title = 'وب‌سایت من'
+title = 'تصفیه روغن ترانس'
 theme = 'hugo-seven'
 
 # تنظیمات تم Hugo Seven
 [params]
   # اطلاعات سایت
-  description = "توضیحات وب‌سایت من"
-  author = "نام شما"
+  description = "تصفیه روغن ترانس"
+  author = "فیلترانس"
   copyright = "© 2024 تمامی حقوق محفوظ است"
   
   # تنظیمات لوگو
@@ -19,13 +19,17 @@ theme = 'hugo-seven'
     url = "/"
     weight = 1
   [[params.menu]]
+    name = "مقالات"
+    url = "/blog/"
+    weight = 2
+  [[params.menu]]
     name = "درباره ما"
     url = "/about/"
-    weight = 2
+    weight = 3
   [[params.menu]]
     name = "تماس"
     url = "/contact/"
-    weight = 3
+    weight = 4
 
 # تنظیمات زبان
 [languages]
@@ -33,3 +37,11 @@ theme = 'hugo-seven'
     languageName = "فارسی"
     weight = 1
     contentDir = "content/fa"
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    contentDir = "content/en"
+  [languages.ar]
+    languageName = "العربی"
+    weight = 1
+    contentDir = "content/ar"
