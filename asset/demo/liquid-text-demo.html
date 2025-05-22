@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نمونه افکت تصویر</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Vazirmatn:wght@100..900&display=swap');
+        html {
+            color-scheme: light dark;
+        }
+
+        [data-theme='light'] {
+            color-scheme: light only;
+        }
+
+        [data-theme='dark'] {
+            color-scheme: dark only;
+        }
+
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            display: grid;
+            /* grid-template-columns: 1fr 1fr; */
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: light-dark(#ffffffd9, #fba301);
+        }
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
+        }
+
+        .video-background video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgb(17 20 255 / 82%);
+            z-index: -1;
+        }
+/* 
+        .content {
+            position: relative;
+            z-index: 1;
+            color: white;
+            padding: 2rem;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        } */
+    </style>
+</head>
+
+
+
+
+<body>
+
+    <div class="video-background">
+        <video autoplay="" muted="" loop="" playsinline="">
+            <source src="../img/a.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="overlay"></div>
+
+    <div class="content">
+        <header>
+            <h1>تصفیه (سیرکوله) ترانس قدرت</h1>
+            <!-- <p>به روش </p> -->
+        </header>
+        <main>
+            <liquid-text text="تصفیه روغن" fontSize="15"></liquid-text>
+            <liquid-text text="ترانسفورماتورهای قدرت" fontSize="9"></liquid-text>
+            <a dir="ltr" href="tel:09174747368">
+                <liquid-text text="0917 47 47 368" fontSize="9"></liquid-text>
+            </a>
+        </main>
+    </div>
+
+    
+
+    <script src="../js/components/LiquidText.js"></script>
+</body>
+</html> 
