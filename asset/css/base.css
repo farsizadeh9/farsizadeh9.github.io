@@ -42,7 +42,8 @@ body {
     min-height: 50vh;
     margin: 0;
     /* background: light-dark(#ffffffd9, #01fb7a); */
-    background: light-dark(#0026ff, #6c00ef);
+    /* background: light-dark(#0026ff, #6c00ef); */
+    background: light-dark(#ffffffd9, #333);
 }
 .video-background {
     position: fixed;

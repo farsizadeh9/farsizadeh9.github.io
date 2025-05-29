@@ -1,4 +1,3 @@
-// اسکریپت منو و تغییر تم
 const navToggle = document.querySelector('.nav-toggle');
 const navMenu = document.querySelector('.nav-menu');
 const body = document.body;

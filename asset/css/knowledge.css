@@ -11,7 +11,7 @@
 
 /* بخش معرفی مرکز دانش */
 .knowledge-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/knowledge-hero.jpg');
+    background:linear-gradient(rgba(0, 0, 0, 0.95), rgba(124, 1, 255, 0.95)), url(../img/knowledge-hero.jpg);
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -164,8 +164,11 @@
 
 .article-image img {
     width: 100%;
-    height: 200px;
+    /* height: 200px; */
     object-fit: cover;
+    max-height: 300px;   
+    min-height: 100%;
+    display: block;
 }
 
 .article-content {
@@ -256,7 +259,8 @@
 .newsletter-section {
     padding: 4rem 0;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/newsletter-bg.jpg');
+    background:linear-gradient( rgba(124, 1, 255, 0.95), rgba(0, 0, 0, 0.95)), url(../img/newsletter-bg.jpg);
+    /* background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/newsletter-bg.jpg'); */
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -294,7 +298,7 @@
 .search-box input,
 .newsletter-form input {
     background: light-dark(rgba(0, 0, 0, 0.1),  rgba(255, 255, 255, 0.1) );
-    color:light-dark(#000,  #fff );
+    color:light-dark(#fff,  #fff );
 }
 
 .search-box input::placeholder,
