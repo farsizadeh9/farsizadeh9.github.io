@@ -188,7 +188,7 @@
     }
 
     .nav-actions {
-        margin-top: auto;
+        /* margin-top: auto; */
         padding-top: 2rem;
         border-top: 1px solid light-dark(#eee, #333);
     }
