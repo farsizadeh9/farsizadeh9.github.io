@@ -1,0 +1,382 @@
+/* .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+} */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* بخش معرفی مرکز دانش */
+.knowledge-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/knowledge-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 0;
+    /* margin-bottom: 3rem; */
+}
+
+.knowledge-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.hero-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-box {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.search-box form {
+    display: flex;
+    gap: 1rem;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: 'Vazirmatn';
+    background: light-dark( rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1));
+}
+
+.search-box button {
+    padding: 1rem 2rem;
+    background: #fba301;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'Vazirmatn';
+    transition: background-color 0.3s ease;
+}
+
+.search-box button:hover {
+    background: #e69500;
+}
+
+/* بخش دسته‌بندی‌ها */
+.knowledge-categories {
+    padding: 4rem 0;
+    background: light-dark(#f8f9fa, #1a1a1a);
+}
+
+.knowledge-categories h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: light-dark(#333, #fff);
+}
+
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.category-card {
+    background: light-dark(#fff, #2a2a2a);
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.category-icon {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 1rem;
+    color: #fba301;
+}
+
+.category-card h3 {
+    color: #fba301;
+    margin-bottom: 1rem;
+}
+
+.category-card p {
+    color: light-dark(#666, #aaa);
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.article-count {
+    display: inline-block;
+    background: #fba301;
+    color: #fff;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+/* بخش مقالات برتر */
+.featured-articles {
+    padding: 4rem 0;
+}
+
+.featured-articles h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: light-dark(#fff, #fff);
+    /* color: light-dark(#333, #fff); */
+}
+
+.articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.article-card {
+    background-color: light-dark(#fff, #2a2a2a);
+    /* background: light-dark(#fff, #2a2a2a); */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.article-card:hover {
+    transform: translateY(-5px);
+}
+
+.article-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.article-content {
+    padding: 1.5rem;
+}
+
+.article-category {
+    display: inline-block;
+    background: #fba301;
+    color: #fff;
+    padding: 0.2rem 0.8rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.article-content h3 {
+    color: light-dark(#333, #fff);
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.article-content p {
+    color: light-dark(#666, #aaa);
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.article-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: light-dark(#666, #aaa);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.read-more {
+    display: inline-block;
+    color: #fba301;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.read-more:hover {
+    color: #e69500;
+}
+
+/* بخش آخرین مقالات */
+.latest-articles {
+    padding: 4rem 0;
+    background: light-dark(#f8f9fa, #1a1a1a);
+}
+
+.latest-articles h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: light-dark(#333, #fff);
+}
+
+.articles-list {
+    display: grid;
+    gap: 2rem;
+}
+
+.article-item {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 1.5rem;
+    background: light-dark(#fff, #2a2a2a);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.article-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.article-info {
+    padding: 1.5rem;
+}
+
+/* بخش خبرنامه */
+.newsletter-section {
+    padding: 4rem 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/newsletter-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.newsletter-section h2 {
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.newsletter-section p {
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newsletter-form {
+    display: flex;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: 'Vazirmatn';
+}
+
+.newsletter-form input {
+    flex: 1;
+    padding: 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: 'Vazirmatn';
+}
+
+.search-box input,
+.newsletter-form input {
+    background: light-dark(rgba(0, 0, 0, 0.1),  rgba(255, 255, 255, 0.1) );
+    color:light-dark(#000,  #fff );
+}
+
+.search-box input::placeholder,
+.newsletter-form input::placeholder {
+    color: light-dark(rgba(0, 0, 0, 0.7),  rgba(255, 255, 255, 0.7) );
+}
+
+
+.newsletter-form button {
+    padding: 1rem 2rem;
+    background: #fba301;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'Vazirmatn';
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    background: #e69500;
+}
+
+/* رسپانسیو */
+@media (max-width: 768px) {
+    .knowledge-hero h1 {
+        font-size: 2rem;
+    }
+
+    .search-box form {
+        flex-direction: column;
+    }
+
+    .article-item {
+        grid-template-columns: 1fr;
+    }
+
+    .article-thumbnail {
+        height: 200px;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+    }
+}
+
+
+
+/* این استایل فقط زمانی نمایش داده می‌شود که تصویر لود نشود */
+.article-image img:not([src]), 
+.article-image img[src=""],
+.article-image img[src="undefined"] {
+    display: none;
+}
+
+
+/* اگر تصویر با موفقیت لود شود، پلیدرها مخفی می‌شوند */
+.article-image:has(img[src]:not([src=""]):not([src="undefined"]))::before,
+.article-image:has(img[src]:not([src=""]):not([src="undefined"]))::after {
+    display: none;
+}
+
+
+
+
+/* استایل‌های تیره
+@media (prefers-color-scheme: dark) {
+    .category-card,
+    .article-card,
+    .article-item {
+        background: #2a2a2a;
+    }
+
+    .search-box input,
+    .newsletter-form input {
+        background: rgba(255, 255, 255, 0.1);
+        color: #fff;
+    }
+
+    .search-box input::placeholder,
+    .newsletter-form input::placeholder {
+        color: rgba(255, 255, 255, 0.7);
+    }
+}  */

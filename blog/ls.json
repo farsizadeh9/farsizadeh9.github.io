@@ -1,0 +1,439 @@
+{
+    "articles": [
+        {
+            "id": "transformer-oil-filtration-methods",
+            "title": "اهمیت تصفیه روغن ترانسفورماتور در افزایش عمر دستگاه",
+            "date": "۲۰ فروردین ۱۴۰۳",
+            "dateISO": "2024-03-20",
+            "category": "مقالات تخصصی",
+            "excerpt": "تصفیه و سیرکوله منظم روغن ترانسفورماتور یکی از مهمترین عوامل در افزایش عمر و کارایی این دستگاه‌های حیاتی است...",
+            "tags": ["تصفیه روغن ترانس", "سیرکوله ترانس", "نگهداری ترانسفورماتور"],
+            "url": "transformer-oil-filtration-methods.html",
+            "image": "transformer-oil-filtration.jpg",
+            "author": "شرکت تصفیه و سیرکوله ترانس قدرت",
+            "readingTime": "۵ دقیقه"
+        },
+        {
+            "id": "transformer-oil-filtration-methods",
+            "title": "روش‌های نوین تصفیه روغن ترانسفورماتور",
+            "date": "۱۹ فروردین ۱۴۰۳",
+            "dateISO": "2024-03-19",
+            "category": "تکنولوژی",
+            "excerpt": "در این مقاله به بررسی روش‌های مختلف تصفیه و سیرکوله روغن ترانسفورماتور می‌پردازیم...",
+            "tags": ["روش‌های تصفیه", "تکنولوژی نوین", "سیرکوله روغن"],
+            "url": "transformer-oil-filtration-methods.html",
+            "image": "transformer-oil-filtration-methods.jpg",
+            "author": "شرکت تصفیه و سیرکوله ترانس قدرت",
+            "readingTime": "۷ دقیقه"
+        },
+        {
+            "id": "transformer-oil-quality-standards",
+            "title": "استانداردهای کیفیت روغن ترانسفورماتور و اهمیت رعایت آن‌ها",
+            "date": "۱۸ فروردین ۱۴۰۳",
+            "dateISO": "2024-03-18",
+            "category": "مقالات تخصصی",
+            "excerpt": "بررسی استانداردهای بین‌المللی کیفیت روغن ترانسفورماتور و تأثیر آن بر عملکرد دستگاه...",
+            "tags": ["استانداردهای روغن", "کیفیت روغن", "تست روغن ترانس"],
+            "url": "transformer-oil-quality-standards.html",
+            "image": "oil-quality-standards.jpg",
+            "author": "شرکت تصفیه و سیرکوله ترانس قدرت",
+            "readingTime": "۶ دقیقه"
+        },
+        {
+            "id": "transformer-oil-testing-methods",
+            "title": "روش‌های تست و آنالیز روغن ترانسفورماتور",
+            "date": "۱۷ فروردین ۱۴۰۳",
+            "dateISO": "2024-03-17",
+            "category": "تکنولوژی",
+            "excerpt": "بررسی جامع روش‌های مختلف تست و آنالیز روغن ترانسفورماتور برای تشخیص مشکلات احتمالی...",
+            "tags": ["تست روغن", "آنالیز روغن", "تشخیص خرابی"],
+            "url": "transformer-oil-testing-methods.html",
+            "image": "oil-testing.jpg",
+            "author": "شرکت تصفیه و سیرکوله ترانس قدرت",
+            "readingTime": "۸ دقیقه"
+        },
+        {
+            "id": "transformer-maintenance-checklist",
+            "title": "چک‌لیست جامع نگهداری و تعمیرات ترانسفورماتور",
+            "date": "۱۶ فروردین ۱۴۰۳",
+            "dateISO": "2024-03-16",
+            "category": "مقالات تخصصی",
+            "excerpt": "راهنمای کامل نگهداری و تعمیرات پیشگیرانه ترانسفورماتور برای افزایش عمر مفید دستگاه...",
+            "tags": ["نگهداری ترانس", "تعمیرات پیشگیرانه", "چک‌لیست نگهداری"],
+            "url": "transformer-maintenance-checklist.html",
+            "image": "maintenance-checklist.jpg",
+            "author": "شرکت تصفیه و سیرکوله ترانس قدرت",
+            "readingTime": "۱۰ دقیقه"
+        },
+        {
+            "id": "transformer-oil-degradation",
+            "title": "عوامل تخریب روغن ترانسفورماتور و روش‌های پیشگیری",
+            "date": "۱۵ فروردین ۱۴۰۳",
+            "dateISO": "2024-03-15",
+            "category": "مقالات تخصصی",
+            "excerpt": "بررسی عوامل مختلف تخریب روغن ترانسفورماتور و راهکارهای پیشگیری از آن‌ها...",
+            "tags": ["تخریب روغن", "پیشگیری", "عمر مفید روغن"],
+            "url": "transformer-oil-degradation.html",
+            "image": "oil-degradation.jpg",
+            "author": "شرکت تصفیه و سیرکوله ترانس قدرت",
+            "readingTime": "۷ دقیقه"
+        },
+        {
+            "id": "transformer-oil-regeneration",
+            "title": "بازیابی و احیای روغن ترانسفورماتور",
+            "date": "۱۴ فروردین ۱۴۰۳",
+            "dateISO": "2024-03-14",
+            "category": "تکنولوژی",
+            "excerpt": "روش‌های نوین بازیابی و احیای روغن ترانسفورماتور برای افزایش عمر مفید آن...",
+            "tags": ["بازیابی روغن", "احیای روغن", "صرفه‌جویی اقتصادی"],
+            "url": "transformer-oil-regeneration.html",
+            "image": "oil-regeneration.jpg",
+            "author": "شرکت تصفیه و سیرکوله ترانس قدرت",
+            "readingTime": "۹ دقیقه"
+        },
+        {
+            "id": "transformer-oil-filtration-equipment",
+            "title": "معرفی تجهیزات پیشرفته تصفیه روغن ترانسفورماتور",
+            "date": "۱۳ فروردین ۱۴۰۳",
+            "dateISO": "2024-03-13",
+            "category": "تکنولوژی",
+            "excerpt": "بررسی تجهیزات مدرن تصفیه روغن ترانسفورماتور و مقایسه ویژگی‌های آن‌ها...",
+            "tags": ["تجهیزات تصفیه", "تکنولوژی نوین", "مقایسه تجهیزات"],
+            "url": "transformer-oil-filtration-equipment.html",
+            "image": "filtration-equipment.jpg",
+            "author": "شرکت تصفیه و سیرکوله ترانس قدرت",
+            "readingTime": "۸ دقیقه"
+        },
+        {
+            "id": "transformer-oil-temperature",
+            "title": "تأثیر دما بر کیفیت روغن ترانسفورماتور",
+            "date": "۱۲ فروردین ۱۴۰۳",
+            "dateISO": "2024-03-12",
+            "category": "مقالات تخصصی",
+            "excerpt": "بررسی تأثیر دما بر خواص فیزیکی و شیمیایی روغن ترانسفورماتور و روش‌های کنترل آن...",
+            "tags": ["دمای روغن", "کنترل دما", "خواص روغن"],
+            "url": "transformer-oil-temperature.html",
+            "image": "oil-temperature.jpg",
+            "author": "شرکت تصفیه و سیرکوله ترانس قدرت",
+            "readingTime": "۶ دقیقه"
+        },
+        {
+            "id": "transformer-oil-moisture",
+            "title": "رطوبت در روغن ترانسفورماتور و روش‌های حذف آن",
+            "date": "۱۱ فروردین ۱۴۰۳",
+            "dateISO": "2024-03-11",
+            "category": "مقالات تخصصی",
+            "excerpt": "بررسی تأثیر رطوبت بر عملکرد ترانسفورماتور و روش‌های مختلف حذف آن از روغن...",
+            "tags": ["رطوبت روغن", "حذف رطوبت", "خشک‌کننده روغن"],
+            "url": "transformer-oil-moisture.html",
+            "image": "oil-moisture.jpg",
+            "author": "شرکت تصفیه و سیرکوله ترانس قدرت",
+            "readingTime": "۷ دقیقه"
+        },
+        {
+            "id": "transformer-oil-acidity",
+            "title": "اسیدیته روغن ترانسفورماتور و روش‌های کنترل آن",
+            "date": "۱۰ فروردین ۱۴۰۳",
+            "dateISO": "2024-03-10",
+            "category": "مقالات تخصصی",
+            "excerpt": "بررسی عوامل افزایش اسیدیته روغن ترانسفورماتور و روش‌های کنترل و کاهش آن...",
+            "tags": ["اسیدیته روغن", "کنترل اسیدیته", "خوردگی ترانس"],
+            "url": "transformer-oil-acidity.html",
+            "image": "oil-acidity.jpg",
+            "author": "شرکت تصفیه و سیرکوله ترانس قدرت",
+            "readingTime": "۶ دقیقه"
+        },
+        {
+            "id": "transformer-oil-oxidation",
+            "title": "اکسیداسیون روغن ترانسفورماتور و روش‌های پیشگیری",
+            "date": "۹ فروردین ۱۴۰۳",
+            "dateISO": "2024-03-09",
+            "category": "مقالات تخصصی",
+            "excerpt": "بررسی فرآیند اکسیداسیون روغن ترانسفورماتور و راهکارهای پیشگیری از آن...",
+            "tags": ["اکسیداسیون روغن", "آنتی‌اکسیدان", "پیشگیری"],
+            "url": "transformer-oil-oxidation.html",
+            "image": "oil-oxidation.jpg",
+            "author": "شرکت تصفیه و سیرکوله ترانس قدرت",
+            "readingTime": "۷ دقیقه"
+        },
+        {
+            "id": "transformer-oil-filtration-cost",
+            "title": "تحلیل هزینه‌های تصفیه روغن ترانسفورماتور",
+            "date": "۸ فروردین ۱۴۰۳",
+            "dateISO": "2024-03-08",
+            "category": "اقتصاد",
+            "excerpt": "بررسی هزینه‌های تصفیه روغن ترانسفورماتور و مقایسه آن با هزینه‌های تعویض روغن...",
+            "tags": ["هزینه تصفیه", "صرفه‌جویی اقتصادی", "تحلیل هزینه"],
+            "url": "transformer-oil-filtration-cost.html",
+            "image": "filtration-cost.jpg",
+            "author": "شرکت تصفیه و سیرکوله ترانس قدرت",
+            "readingTime": "۵ دقیقه"
+        },
+        {
+            "id": "transformer-oil-filtration-schedule",
+            "title": "برنامه زمان‌بندی بهینه تصفیه روغن ترانسفورماتور",
+            "date": "۷ فروردین ۱۴۰۳",
+            "dateISO": "2024-03-07",
+            "category": "مقالات تخصصی",
+            "excerpt": "راهنمای تدوین برنامه زمان‌بندی مناسب برای تصفیه و سیرکوله روغن ترانسفورماتور...",
+            "tags": ["زمان‌بندی تصفیه", "برنامه نگهداری", "بهینه‌سازی"],
+            "url": "transformer-oil-filtration-schedule.html",
+            "image": "filtration-schedule.jpg",
+            "author": "شرکت تصفیه و سیرکوله ترانس قدرت",
+            "readingTime": "۶ دقیقه"
+        },
+        {
+            "id": "transformer-oil-filtration-safety",
+            "title": "نکات ایمنی در تصفیه و سیرکوله روغن ترانسفورماتور",
+            "date": "۶ فروردین ۱۴۰۳",
+            "dateISO": "2024-03-06",
+            "category": "ایمنی",
+            "excerpt": "راهنمای جامع نکات ایمنی و استانداردهای لازم در عملیات تصفیه روغن ترانسفورماتور...",
+            "tags": ["ایمنی تصفیه", "استانداردهای ایمنی", "پیشگیری از حوادث"],
+            "url": "transformer-oil-filtration-safety.html",
+            "image": "filtration-safety.jpg",
+            "author": "شرکت تصفیه و سیرکوله ترانس قدرت",
+            "readingTime": "۸ دقیقه"
+        },
+        {
+            "id": "transformer-oil-filtration-environment",
+            "title": "تأثیرات زیست محیطی تصفیه روغن ترانسفورماتور",
+            "date": "۵ فروردین ۱۴۰۳",
+            "dateISO": "2024-03-05",
+            "category": "محیط زیست",
+            "excerpt": "بررسی تأثیرات زیست محیطی عملیات تصفیه روغن ترانسفورماتور و روش‌های کاهش آن...",
+            "tags": ["محیط زیست", "توسعه پایدار", "مدیریت پسماند"],
+            "url": "transformer-oil-filtration-environment.html",
+            "image": "filtration-environment.jpg",
+            "author": "شرکت تصفیه و سیرکوله ترانس قدرت",
+            "readingTime": "۷ دقیقه"
+        },
+        {
+            "id": "transformer-oil-filtration-automation",
+            "title": "اتوماسیون سیستم‌های تصفیه روغن ترانسفورماتور",
+            "date": "۴ فروردین ۱۴۰۳",
+            "dateISO": "2024-03-04",
+            "category": "تکنولوژی",
+            "excerpt": "بررسی سیستم‌های اتوماسیون در تصفیه روغن ترانسفورماتور و مزایای آن‌ها...",
+            "tags": ["اتوماسیون", "هوش مصنوعی", "کنترل هوشمند"],
+            "url": "transformer-oil-filtration-automation.html",
+            "image": "filtration-automation.jpg",
+            "author": "شرکت تصفیه و سیرکوله ترانس قدرت",
+            "readingTime": "۹ دقیقه"
+        },
+        {
+            "id": "transformer-oil-filtration-monitoring",
+            "title": "سیستم‌های مانیتورینگ تصفیه روغن ترانسفورماتور",
+            "date": "۳ فروردین ۱۴۰۳",
+            "dateISO": "2024-03-03",
+            "category": "تکنولوژی",
+            "excerpt": "بررسی سیستم‌های مانیتورینگ پیشرفته در تصفیه روغن ترانسفورماتور...",
+            "tags": ["مانیتورینگ", "کنترل کیفیت", "داده‌کاوی"],
+            "url": "transformer-oil-filtration-monitoring.html",
+            "image": "filtration-monitoring.jpg",
+            "author": "شرکت تصفیه و سیرکوله ترانس قدرت",
+            "readingTime": "۸ دقیقه"
+        },
+        {
+            "id": "transformer-oil-filtration-maintenance",
+            "title": "نگهداری و تعمیرات تجهیزات تصفیه روغن ترانسفورماتور",
+            "date": "۲ فروردین ۱۴۰۳",
+            "dateISO": "2024-03-02",
+            "category": "مقالات تخصصی",
+            "excerpt": "راهنمای نگهداری و تعمیرات تجهیزات تصفیه روغن ترانسفورماتور برای عملکرد بهینه...",
+            "tags": ["نگهداری تجهیزات", "تعمیرات", "بهینه‌سازی عملکرد"],
+            "url": "transformer-oil-filtration-maintenance.html",
+            "image": "filtration-maintenance.jpg",
+            "author": "شرکت تصفیه و سیرکوله ترانس قدرت",
+            "readingTime": "۷ دقیقه"
+        },
+        {
+            "id": "transformer-oil-filtration-troubleshooting",
+            "title": "عیب‌یابی مشکلات رایج در تصفیه روغن ترانسفورماتور",
+            "date": "۱ فروردین ۱۴۰۳",
+            "dateISO": "2024-03-01",
+            "category": "مقالات تخصصی",
+            "excerpt": "راهنمای جامع عیب‌یابی و رفع مشکلات رایج در سیستم‌های تصفیه روغن ترانسفورماتور...",
+            "tags": ["عیب‌یابی", "رفع مشکل", "تعمیرات"],
+            "url": "transformer-oil-filtration-troubleshooting.html",
+            "image": "filtration-troubleshooting.jpg",
+            "author": "شرکت تصفیه و سیرکوله ترانس قدرت",
+            "readingTime": "۱۰ دقیقه"
+        },
+        {
+            "id": "transformer-oil-filtration-standards",
+            "title": "استانداردهای تصفیه روغن ترانسفورماتور",
+            "date": "۲۹ اسفند ۱۴۰۲",
+            "dateISO": "2024-02-29",
+            "category": "استانداردها",
+            "excerpt": "بررسی استانداردهای ملی و بین‌المللی مرتبط با تصفیه روغن ترانسفورماتور...",
+            "tags": ["استانداردها", "کیفیت", "مقررات"],
+            "url": "transformer-oil-filtration-standards.html",
+            "image": "filtration-standards.jpg",
+            "author": "شرکت تصفیه و سیرکوله ترانس قدرت",
+            "readingTime": "۸ دقیقه"
+        },
+        {
+            "id": "transformer-oil-filtration-training",
+            "title": "آموزش اپراتورهای تصفیه روغن ترانسفورماتور",
+            "date": "۲۸ اسفند ۱۴۰۲",
+            "dateISO": "2024-02-28",
+            "category": "آموزش",
+            "excerpt": "برنامه جامع آموزش اپراتورهای سیستم‌های تصفیه روغن ترانسفورماتور...",
+            "tags": ["آموزش", "اپراتوری", "مهارت‌افزایی"],
+            "url": "transformer-oil-filtration-training.html",
+            "image": "filtration-training.jpg",
+            "author": "شرکت تصفیه و سیرکوله ترانس قدرت",
+            "readingTime": "۹ دقیقه"
+        },
+        {
+            "id": "transformer-oil-filtration-innovation",
+            "title": "نوآوری‌های جدید در تصفیه روغن ترانسفورماتور",
+            "date": "۲۷ اسفند ۱۴۰۲",
+            "dateISO": "2024-02-27",
+            "category": "تکنولوژی",
+            "excerpt": "بررسی آخرین نوآوری‌ها و پیشرفت‌های تکنولوژیک در زمینه تصفیه روغن ترانسفورماتور...",
+            "tags": ["نوآوری", "تکنولوژی نوین", "پیشرفت‌های علمی"],
+            "url": "transformer-oil-filtration-innovation.html",
+            "image": "filtration-innovation.jpg",
+            "author": "شرکت تصفیه و سیرکوله ترانس قدرت",
+            "readingTime": "۷ دقیقه"
+        },
+        {
+            "id": "transformer-oil-filtration-case-studies",
+            "title": "مطالعات موردی موفق در تصفیه روغن ترانسفورماتور",
+            "date": "۲۶ اسفند ۱۴۰۲",
+            "dateISO": "2024-02-26",
+            "category": "مقالات تخصصی",
+            "excerpt": "بررسی موارد موفق تصفیه و سیرکوله روغن ترانسفورماتور در صنایع مختلف...",
+            "tags": ["مطالعه موردی", "موفقیت", "تجربیات عملی"],
+            "url": "transformer-oil-filtration-case-studies.html",
+            "image": "filtration-case-studies.jpg",
+            "author": "شرکت تصفیه و سیرکوله ترانس قدرت",
+            "readingTime": "۱۰ دقیقه"
+        },
+        {
+            "id": "transformer-oil-filtration-future",
+            "title": "آینده تصفیه روغن ترانسفورماتور و روندهای نوظهور",
+            "date": "۲۵ اسفند ۱۴۰۲",
+            "dateISO": "2024-02-25",
+            "category": "تکنولوژی",
+            "excerpt": "بررسی روندهای آینده و پیش‌بینی تحولات تکنولوژیک در زمینه تصفیه روغن ترانسفورماتور...",
+            "tags": ["آینده‌نگاری", "روندهای نوظهور", "توسعه تکنولوژی"],
+            "url": "transformer-oil-filtration-future.html",
+            "image": "filtration-future.jpg",
+            "author": "شرکت تصفیه و سیرکوله ترانس قدرت",
+            "readingTime": "۸ دقیقه"
+        }
+    ],
+    "categories": [
+        {
+            "id": "technical",
+            "name": "مقالات تخصصی",
+            "description": "مقالات تخصصی در زمینه تصفیه و سیرکوله روغن ترانسفورماتور"
+        },
+        {
+            "id": "technology",
+            "name": "تکنولوژی",
+            "description": "مقالات مرتبط با تکنولوژی‌های نوین در زمینه تصفیه روغن"
+        },
+        {
+            "id": "economics",
+            "name": "اقتصاد",
+            "description": "مقالات مرتبط با جنبه‌های اقتصادی تصفیه روغن ترانسفورماتور"
+        },
+        {
+            "id": "safety",
+            "name": "ایمنی",
+            "description": "مقالات مرتبط با ایمنی در عملیات تصفیه روغن ترانسفورماتور"
+        },
+        {
+            "id": "environment",
+            "name": "محیط زیست",
+            "description": "مقالات مرتبط با تأثیرات زیست محیطی تصفیه روغن ترانسفورماتور"
+        },
+        {
+            "id": "standards",
+            "name": "استانداردها",
+            "description": "مقالات مرتبط با استانداردهای تصفیه روغن ترانسفورماتور"
+        },
+        {
+            "id": "training",
+            "name": "آموزش",
+            "description": "مقالات مرتبط با آموزش و مهارت‌افزایی در زمینه تصفیه روغن ترانسفورماتور"
+        }
+    ],
+    "tags": [
+        {
+            "id": "oil-filtration",
+            "name": "تصفیه روغن ترانس",
+            "count": 2
+        },
+        {
+            "id": "circulation",
+            "name": "سیرکوله ترانس",
+            "count": 2
+        },
+        {
+            "id": "maintenance",
+            "name": "نگهداری ترانسفورماتور",
+            "count": 1
+        },
+        {
+            "id": "new-technology",
+            "name": "تکنولوژی نوین",
+            "count": 1
+        },
+        {
+            "id": "oil-quality",
+            "name": "کیفیت روغن",
+            "count": 3
+        },
+        {
+            "id": "oil-testing",
+            "name": "تست روغن",
+            "count": 2
+        },
+        {
+            "id": "preventive-maintenance",
+            "name": "تعمیرات پیشگیرانه",
+            "count": 2
+        },
+        {
+            "id": "oil-degradation",
+            "name": "تخریب روغن",
+            "count": 2
+        },
+        {
+            "id": "oil-regeneration",
+            "name": "بازیابی روغن",
+            "count": 2
+        },
+        {
+            "id": "automation",
+            "name": "اتوماسیون",
+            "count": 2
+        },
+        {
+            "id": "monitoring",
+            "name": "مانیتورینگ",
+            "count": 2
+        },
+        {
+            "id": "safety-standards",
+            "name": "استانداردهای ایمنی",
+            "count": 2
+        },
+        {
+            "id": "environmental-impact",
+            "name": "تأثیرات زیست محیطی",
+            "count": 2
+        },
+        {
+            "id": "innovation",
+            "name": "نوآوری",
+            "count": 2
+        }
+    ],
+    "lastUpdated": "2024-03-20T12:00:00+03:30"
+} 

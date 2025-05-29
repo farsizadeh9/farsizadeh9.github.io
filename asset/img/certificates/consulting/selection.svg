@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+    <!-- پس‌زمینه -->
+    <defs>
+        <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#fba301;stop-opacity:0.05"/>
+            <stop offset="100%" style="stop-color:#fba301;stop-opacity:0.02"/>
+        </linearGradient>
+    </defs>
+    
+    <!-- مستطیل پس‌زمینه -->
+    <rect width="300" height="300" fill="url(#bg-gradient)"/>
+    
+    <!-- آیکون انتخاب -->
+    <g transform="translate(150,150) scale(1)">
+        <!-- دایره بیرونی -->
+        <circle cx="0" cy="0" r="60" fill="none" stroke="#fba301" stroke-width="3"/>
+        
+        <!-- ترانسفورماتور -->
+        <rect x="-30" y="-40" width="60" height="80" fill="none" stroke="#fba301" stroke-width="3"/>
+        <line x1="-30" y1="-20" x2="30" y2="-20" stroke="#fba301" stroke-width="2"/>
+        <line x1="-30" y1="0" x2="30" y2="0" stroke="#fba301" stroke-width="2"/>
+        <line x1="-30" y1="20" x2="30" y2="20" stroke="#fba301" stroke-width="2"/>
+        
+        <!-- فلش انتخاب -->
+        <path d="M40,-40 L60,-40 L50,-30 L60,-20 L40,-20 Z" fill="#fba301"/>
+        <path d="M40,20 L60,20 L50,30 L60,40 L40,40 Z" fill="#fba301"/>
+    </g>
+    
+    <!-- متن عنوان -->
+    <text x="150" y="250" font-family="Vazirmatn, sans-serif" font-size="16" fill="#333" text-anchor="middle">
+        انتخاب تجهیزات
+    </text>
+</svg> 

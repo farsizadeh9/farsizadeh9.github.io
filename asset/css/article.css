@@ -1,0 +1,286 @@
+/* استایل‌های عمومی مقاله */
+.article-main {
+    padding: 2rem 0;
+    background: light-dark(#fff, #1a1a1a);
+}
+
+.article-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* مسیر ناوبری */
+.breadcrumb {
+    margin-bottom: 2rem;
+}
+
+.breadcrumb ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.breadcrumb li {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb li:not(:last-child)::after {
+    content: "/";
+    margin-right: 0.5rem;
+    color: light-dark(#666, #aaa);
+}
+
+.breadcrumb a {
+    color: light-dark(#666, #aaa);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.breadcrumb a:hover {
+    color: #fba301;
+}
+
+.breadcrumb [aria-current="page"] {
+    color: #fba301;
+    font-weight: 500;
+}
+
+/* هدر مقاله */
+.article-header {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.article-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: light-dark(#333, #fff);
+    line-height: 1.3;
+}
+
+.article-meta {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    color: light-dark(#666, #aaa);
+    font-size: 0.9rem;
+    flex-wrap: wrap;
+}
+
+.article-meta span {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.article-meta span::before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: #fba301;
+    border-radius: 50%;
+}
+
+.article-meta span:first-child::before {
+    display: none;
+}
+
+/* محتوای مقاله */
+.article-body {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: light-dark(#333, #fff);
+}
+
+.article-body h2 {
+    font-size: 1.8rem;
+    margin: 2.5rem 0 1.5rem;
+    color: light-dark(#333, #fff);
+}
+
+.article-body h3 {
+    font-size: 1.4rem;
+    margin: 2rem 0 1rem;
+    color: light-dark(#333, #fff);
+}
+
+.article-body p {
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+.article-body ul,
+.article-body ol {
+    margin-bottom: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.article-body li {
+    margin-bottom: 0.5rem;
+}
+
+.article-body img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 2rem 0;
+}
+
+.article-body blockquote {
+    border-right: 4px solid #fba301;
+    padding: 1rem 2rem;
+    margin: 2rem 0;
+    background: light-dark(#f8f9fa, #2a2a2a);
+    border-radius: 0 8px 8px 0;
+}
+
+.article-body blockquote p {
+    margin: 0;
+    font-style: italic;
+    color: light-dark(#666, #aaa);
+}
+
+/* بخش منابع */
+.article-references {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid light-dark(#ddd, #444);
+}
+
+.article-references h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: light-dark(#333, #fff);
+}
+
+.article-references ol {
+    padding-right: 1.5rem;
+}
+
+.article-references li {
+    margin-bottom: 1rem;
+    color: light-dark(#666, #aaa);
+}
+
+/* بخش مقالات مرتبط */
+.related-articles {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid light-dark(#ddd, #444);
+}
+
+.related-articles h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: light-dark(#333, #fff);
+}
+
+/* استایل‌های اضافی برای محتوا */
+.article-body code {
+    background: light-dark(#f8f9fa, #2a2a2a);
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 0.9em;
+}
+
+.article-body pre {
+    background: light-dark(#f8f9fa, #2a2a2a);
+    padding: 1rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+}
+
+.article-body pre code {
+    background: none;
+    padding: 0;
+}
+
+.article-body table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+}
+
+.article-body th,
+.article-body td {
+    padding: 1rem;
+    border: 1px solid light-dark(#ddd, #444);
+    text-align: right;
+}
+
+.article-body th {
+    background: light-dark(#f8f9fa, #2a2a2a);
+    font-weight: 600;
+}
+
+/* رسپانسیو */
+@media (max-width: 768px) {
+    .article-header h1 {
+        font-size: 2rem;
+    }
+
+    .article-meta {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .article-meta span::before {
+        display: none;
+    }
+
+    .article-body {
+        font-size: 1rem;
+    }
+
+    .article-body h2 {
+        font-size: 1.6rem;
+    }
+
+    .article-body h3 {
+        font-size: 1.3rem;
+    }
+}
+
+
+
+
+
+.article-image {
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+    background-color: light-dark(#f5f5f5, #2a2a2a);
+    border-radius: 8px;
+    border: 2px dashed #ddd;
+    margin: 1rem 0;
+}
+
+.article-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+
+
+/* استایل‌های تیره
+@media (prefers-color-scheme: dark) {
+    .article-body code,
+    .article-body pre {
+        background: #2a2a2a;
+    }
+
+    .article-body th {
+        background: #2a2a2a;
+    }
+}  */

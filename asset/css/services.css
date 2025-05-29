@@ -1,0 +1,283 @@
+/* استایل‌های عمومی صفحه خدمات */
+.service-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.service-content {
+    background: light-dark(#fff, #1a1a1a);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+/* هدر صفحه */
+.service-header {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: linear-gradient(135deg, #fba301, #ff6b6b);
+    color: white;
+}
+
+.service-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.service-description {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0.9;
+}
+
+/* بخش ویژگی‌ها */
+.service-features {
+    padding: 4rem 2rem;
+    background: light-dark(#f8f9fa, #2a2a2a);
+}
+
+.service-features h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: light-dark(#333, #fff);
+    font-size: 2rem;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature-card {
+    background: light-dark(#fff, #333);
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 1rem;
+    color: #fba301;
+}
+
+.feature-card h3 {
+    color: light-dark(#333, #fff);
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.feature-card p {
+    color: light-dark(#666, #aaa);
+    line-height: 1.6;
+}
+
+/* بخش فرآیند */
+.service-process {
+    padding: 4rem 2rem;
+    background: light-dark(#fff, #1a1a1a);
+}
+
+.service-process h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: light-dark(#333, #fff);
+    font-size: 2rem;
+}
+
+.process-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.process-step {
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+}
+
+.step-number {
+    width: 40px;
+    height: 40px;
+    background: #fba301;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    font-weight: bold;
+}
+
+.process-step h3 {
+    color: light-dark(#333, #fff);
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.process-step p {
+    color: light-dark(#666, #aaa);
+    line-height: 1.6;
+}
+
+/* بخش تجهیزات */
+.service-equipment {
+    padding: 4rem 2rem;
+    background: light-dark(#f8f9fa, #2a2a2a);
+}
+
+.service-equipment h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: light-dark(#333, #fff);
+    font-size: 2rem;
+}
+
+.equipment-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.equipment-card {
+    background: light-dark(#fff, #333);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.equipment-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.equipment-card h3 {
+    padding: 1.5rem 1.5rem 0.5rem;
+    color: light-dark(#333, #fff);
+    font-size: 1.25rem;
+}
+
+.equipment-card p {
+    padding: 0 1.5rem 1.5rem;
+    color: light-dark(#666, #aaa);
+    line-height: 1.6;
+}
+
+/* بخش CTA */
+.service-cta {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: linear-gradient(135deg, #fba301, #ff6b6b);
+    color: white;
+}
+
+.service-cta h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.service-cta p {
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    opacity: 0.9;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cta-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.cta-button.primary {
+    background: white;
+    color: #fba301;
+}
+
+.cta-button.secondary {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* ریسپانسیو */
+@media (max-width: 768px) {
+    .service-header h1 {
+        font-size: 2rem;
+    }
+
+    .service-description {
+        font-size: 1rem;
+    }
+
+    .features-grid,
+    .process-steps,
+    .equipment-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+    }
+
+    .cta-button {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* پشتیبانی از تم تاریک */
+@media (prefers-color-scheme: dark) {
+    .service-content {
+        background: #1a1a1a;
+    }
+
+    .feature-card,
+    .equipment-card {
+        background: #333;
+    }
+
+    .feature-card h3,
+    .equipment-card h3 {
+        color: #fff;
+    }
+
+    .feature-card p,
+    .equipment-card p {
+        color: #aaa;
+    }
+} 

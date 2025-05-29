@@ -41,7 +41,7 @@ class LiquidText extends HTMLElement {
             <svg viewbox="0 0 100 20">
             <defs>
                 <linearGradient id="gradient">
-                <stop color="light-dark(#ffffffd9, #fba301);"/>
+                    <stop color="#000000"/>
                 </linearGradient>
                 <pattern id="wave" x="0" y="-0.5" width="100%" height="100%" patternUnits="userSpaceOnUse">
                 <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask="url(#mask)" fill="url(#gradient)"> 
@@ -56,7 +56,7 @@ class LiquidText extends HTMLElement {
                 </path>
                 </pattern>
             </defs>
-            <text text-anchor="middle" x="50" y="15" font-size="`+fontSize+`" fill="light-dark(#ffffffd9, #fba301);" fill-opacity="0.1">` + text + `</text>
+            <text text-anchor="middle" x="50" y="15" font-size="`+fontSize+`" fill="#ffffff" fill-opacity="0.1">` + text + `</text>
             <text text-anchor="middle" x="50" y="15" font-size="`+fontSize+`" fill="url(#wave)"  fill-opacity="1">` + text + `</text>
             </svg>
 

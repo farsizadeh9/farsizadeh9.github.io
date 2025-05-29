@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Vazirmatn:wght@100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    color-scheme: light dark;
+    /* color-scheme: light; */
+    /* color-scheme: dark; */
+}
+
+[data-theme='light'] {
+    color-scheme: light only;
+}
+
+[data-theme='dark'] {
+    color-scheme: dark only;
+}
+
+/* تنظیمات کلی برای حالت لایت */
+@media (prefers-color-scheme: light) {
+    /* این رنگ برای تولبار در حالت لایت اعمال می‌شود: آبی */
+    meta[name="theme-color"] {
+        content: #0026ff;
+    }
+}  
+/* تنظیمات برای حالت دارک */
+@media (prefers-color-scheme: dark) {
+    /* این رنگ برای تولبار در حالت دارک اعمال می‌شود: بنفش */
+    meta[name="theme-color"] {
+      content: #6c00ef;
+    }
+}
+
+body {
+    font-family: 'Vazirmatn', sans-serif;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    margin: 0;
+    /* background: light-dark(#ffffffd9, #01fb7a); */
+    background: light-dark(#0026ff, #6c00ef);
+}
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+.video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: light-dark(#ffffffc7, #0d0d0dc7);
+    z-index: -1;
+}

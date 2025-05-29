@@ -33,9 +33,64 @@
     <meta property="twitter:image" content="https://filtrans.ir/asset/img/og-image.jpg">
 
     <title>شرکت Filtrans - پیشگام در خدمات تصفیه روغن ترانسفورماتور</title>
-    <link rel="stylesheet" href="asset/css/base.css">
     <link rel="stylesheet" href="asset/css/nav.css">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Vazirmatn:wght@100..900&display=swap');
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        html {
+            color-scheme: light dark;
+            /* color-scheme: light; */
+            /* color-scheme: dark; */
+        }
+
+        [data-theme='light'] {
+            color-scheme: light only;
+        }
+
+        [data-theme='dark'] {
+            color-scheme: dark only;
+        }
+
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            /* display: grid; */
+            /* grid-template-columns: 1fr 1fr; */
+            justify-content: center;
+            align-items: center;
+            min-height: 50vh;
+            margin: 0;
+            background: light-dark(#ffffffd9, #01fb7a);
+        }
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
+        }
+
+        .video-background video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: light-dark(#ffffffc7, #0d0d0dc7);
+            z-index: -1;
+        }
+
+
         /* liquid text */
         .ctr {
         position:relative;
@@ -483,9 +538,9 @@
             text-align: center;
         }
 
-        /* h1, h2 {
+        h1, h2 {
             color: #fff !important;
-        } */
+        }
 
         /* استایل‌های جدید */
         .stats-section {
@@ -633,7 +688,7 @@
             <div class="nav-menu" id="nav-menu">
                 <ul class="nav-list">
                     <li><a href="/" class="nav-link">صفحه اصلی</a></li>
-                    <li><a href="/knowledge" class="nav-link">مرکز دانش</a></li>
+                    <li><a href="/blog" class="nav-link">مقالات</a></li>
                     <li><a href="/services" class="nav-link">خدمات</a></li>
                     <li><a href="/about" class="nav-link">درباره ما</a></li>
                     <li><a href="/contact" class="nav-link">تماس با ما</a></li>

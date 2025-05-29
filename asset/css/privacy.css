@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Vazirmatn:wght@100..900&display=swap');
+
+/* استایل‌های عمومی صفحه حریم خصوصی */
+.privacy-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.privacy-header {
+    text-align: center;
+    margin: 4rem 0;
+    padding: 3rem 2rem;
+    background: linear-gradient(135deg, #fba301, #ff6b6b);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    color: white;
+}
+
+.privacy-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.privacy-header p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0.9;
+}
+
+.privacy-content {
+    background: light-dark(#fff, #1a1a1a);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.privacy-section {
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background: light-dark(#f8f9fa, #2a2a2a);
+    border-radius: 8px;
+}
+
+.privacy-section h2 {
+    color: light-dark(#333, #fff);
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--accent-color, #fba301);
+}
+
+.privacy-section p {
+    margin-bottom: 1rem;
+    color: light-dark(#666, #aaa);
+    line-height: 1.8;
+}
+
+.privacy-section ul {
+    list-style: none;
+    margin: 1rem 0;
+    padding-right: 1.5rem;
+}
+
+.privacy-section ul li {
+    margin-bottom: 0.8rem;
+    position: relative;
+    padding-right: 1.5rem;
+    color: light-dark(#666, #aaa);
+    line-height: 1.6;
+}
+
+.privacy-section ul li::before {
+    content: "•";
+    color: var(--accent-color, #fba301);
+    position: absolute;
+    right: 0;
+}
+
+.privacy-image {
+    width: 100%;
+    max-width: 600px;
+    margin: 2rem auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.privacy-image:hover {
+    transform: translateY(-5px);
+}
+
+.privacy-note {
+    background: light-dark(#fff, #333);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+    border-right: 4px solid var(--accent-color, #fba301);
+    transition: transform 0.3s ease;
+}
+
+.privacy-note:hover {
+    transform: translateX(-5px);
+}
+
+.privacy-note p {
+    color: light-dark(#666, #aaa);
+    font-style: italic;
+    line-height: 1.6;
+}
+
+/* لینک‌ها */
+.privacy-section a {
+    color: var(--accent-color, #fba301);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.privacy-section a:hover {
+    color: #ff6b6b;
+    text-decoration: underline;
+}
+
+/* ریسپانسیو */
+@media (max-width: 768px) {
+    .privacy-container {
+        padding: 1rem;
+    }
+
+    .privacy-header {
+        margin: 2rem 0;
+        padding: 2rem 1.5rem;
+    }
+
+    .privacy-header h1 {
+        font-size: 2rem;
+    }
+
+    .privacy-content {
+        padding: 1.5rem;
+    }
+
+    .privacy-section {
+        padding: 1.5rem;
+    }
+
+    .privacy-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .privacy-image {
+        margin: 1.5rem auto;
+    }
+}
+
+/* انیمیشن‌ها */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.privacy-section {
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* پشتیبانی از تم تاریک */
+@media (prefers-color-scheme: dark) {
+    .privacy-content {
+        background: #1a1a1a;
+    }
+
+    .privacy-section {
+        background: #2a2a2a;
+    }
+
+    .privacy-note {
+        background: #333;
+    }
+} 
